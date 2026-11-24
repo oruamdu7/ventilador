@@ -23,16 +23,21 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Install Chrome dependencies
         uses: browser-actions/setup-chrome@latest
 
-      - name: Install minimal system dependencies
+      - name: Install system dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y xvfb ffmpeg python3 python3-pip
+          sudo apt-get update && sudo apt-get install -y xvfb ffmpeg
 
       - name: Install Python dependencies
         run: |
-          pip3 install numpy scipy soundfile Pillow --break-system-packages
+          pip3 install numpy scipy soundfile Pillow edge-tts --break-system-packages
 
       - name: Install npm dependencies
         run: npm ci
@@ -40,21 +45,36 @@ jobs:
       - name: Verify TypeScript compiles
         run: npx tsc --noEmit
 
-      - name: Debug - check audio files
+      - name: Generate narration audio
         run: |
-          ls -la public/audio/vo/
-          ls -la public/audio/sfx/ 2>/dev/null || echo "no sfx dir"
+          python scripts/voiceover.py --lines scripts/narration.json --provider edge --voice pt-BR-AntonioNeural --rate +20%
+          python scripts/prepare_vo_simple.py
 
-      - name: Render video with Remotion (verbose)
-        env:
-          DEBUG: remotion:*
+      - name: Convert audio to WAV
+        run: |
+          mkdir -p public/audio/vo
+          for f in public/audio/vo/*.mp3; do
+            [ -f "$f" ] && ffmpeg -y -i "$f" -ar 48000 -ac 1 "${f%.mp3}.wav"
+          done
+
+      - name: Generate SFX
+        run: |
+          python scripts/sfx.py
+
+      - name: Generate music
+        run: |
+          python scripts/music.py
+
+      - name: Verify TypeScript compiles (after audio generation)
+        run: npx tsc --noEmit
+
+      - name: Render video with Remotion
         run: |
           xvfb-run -a --server-args="-screen 0 1920x1080x24" \
             npx remotion render Ventilador out/ventilador-raw.mp4 \
               --concurrency=1 \
               --crf=30 \
-              --timeout=900000 \
-              --log=verbose
+              --timeout=900000
 
       - name: Check video metadata
         run: |
