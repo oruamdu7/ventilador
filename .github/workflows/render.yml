@@ -12,7 +12,11 @@ jobs:
   render:
     name: Render MP4 (1080x1920, 90s)
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
+    env:
+      # Force ANGLE to use SwiftShader (software rasterizer)
+      ANGLE_DEFAULT_PLATFORM: swiftShader
+      EGL_PLATFORM: surfaceless
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,7 +37,7 @@ jobs:
 
       - name: Install system dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y xvfb ffmpeg
+          sudo apt-get update && sudo apt-get install -y xvfb ffmpeg libvulkan1 mesa-vulkan-drivers
 
       - name: Install Python dependencies
         run: |
@@ -68,13 +72,14 @@ jobs:
       - name: Verify TypeScript compiles (after audio generation)
         run: npx tsc --noEmit
 
-      - name: Render video with Remotion
+      - name: Render video with Remotion (SwiftShader)
         run: |
           xvfb-run -a --server-args="-screen 0 1920x1080x24" \
             npx remotion render Ventilador out/ventilador-raw.mp4 \
+              --gl=angle \
               --concurrency=1 \
               --crf=30 \
-              --timeout=900000
+              --timeout=1200000
 
       - name: Check video metadata
         run: |
