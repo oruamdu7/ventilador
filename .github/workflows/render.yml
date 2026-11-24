@@ -12,7 +12,7 @@ jobs:
   render:
     name: Render MP4 (1080x1920, 90s)
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,6 +26,16 @@ jobs:
       - name: Install Chrome dependencies
         uses: browser-actions/setup-chrome@latest
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y \
+            xvfb \
+            libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+            libxrandr2 libgbm1 libasound2 libatspi2.0-0 \
+            libxshmfence1 libxss1 libxtst6 \
+            ffmpeg python3 python3-pip
+
       - name: Install Python dependencies
         run: |
           pip3 install numpy scipy soundfile Pillow --break-system-packages
@@ -36,12 +46,14 @@ jobs:
       - name: Verify TypeScript compiles
         run: npx tsc --noEmit
 
-      - name: Render video with Remotion
+      - name: Render video with Remotion (with xvfb)
         run: |
-          npx remotion render Ventilador out/ventilador-raw.mp4 \
-            --gl=angle \
-            --concurrency=2 \
-            --crf=23
+          xvfb-run -a -s "-screen 0 1920x1080x24" \
+            npx remotion render Ventilador out/ventilador-raw.mp4 \
+              --gl=angle \
+              --concurrency=2 \
+              --crf=23 \
+              --timeout=300000
 
       - name: Check video metadata
         run: |
