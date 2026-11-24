@@ -1,0 +1,64 @@
+name: Render Ventilador Video
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Render MP4 (1080x1920, 90s)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify TypeScript compiles
+        run: npx tsc --noEmit
+
+      - name: Render video with Remotion
+        run: |
+          npx remotion render Ventilador out/ventilador-raw.mp4 \
+            --gl=angle \
+            --concurrency=4 \
+            --crf=17
+
+      - name: Check video metadata
+        run: |
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,nb_frames -show_entries format=duration out/ventilador-raw.mp4
+
+      - name: Normalize loudness (-14 LUFS)
+        run: |
+          python scripts/loudnorm.py out/ventilador-raw.mp4 out/ventilador.mp4
+
+      - name: Verify final video
+        run: |
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,nb_frames -show_entries format=duration out/ventilador.mp4
+          python scripts/audiocheck.py out/ventilador.mp4
+
+      - name: Upload video artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ventilador-final
+          path: out/ventilador.mp4
+          retention-days: 30
+
+      - name: Upload raw video (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ventilador-raw
+          path: out/ventilador-raw.mp4
+          retention-days: 7

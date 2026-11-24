@@ -1,0 +1,1361 @@
+{
+  "s1": {
+    "text": "Você quer vento. Parece que basta girar uma hélice...",
+    "seconds": 3.312,
+    "words": [
+      {
+        "text": "Você",
+        "start": 0.092,
+        "end": 0.383
+      },
+      {
+        "text": "quer",
+        "start": 0.394,
+        "end": 0.592
+      },
+      {
+        "text": "vento",
+        "start": 0.602,
+        "end": 0.935
+      },
+      {
+        "text": "Parece",
+        "start": 1.646,
+        "end": 2.062
+      },
+      {
+        "text": "que",
+        "start": 2.073,
+        "end": 2.156
+      },
+      {
+        "text": "basta",
+        "start": 2.167,
+        "end": 2.479
+      },
+      {
+        "text": "girar",
+        "start": 2.49,
+        "end": 2.75
+      },
+      {
+        "text": "uma",
+        "start": 2.76,
+        "end": 2.917
+      },
+      {
+        "text": "hélice",
+        "start": 2.927,
+        "end": 3.312
+      }
+    ]
+  },
+  "s2": {
+    "text": "Só que o ar não sai por mágica. A pá é uma asa: o formato curvo cria baixa pressão atrás e alta na frente.",
+    "seconds": 6.156,
+    "words": [
+      {
+        "text": "Só",
+        "start": 0.092,
+        "end": 0.352
+      },
+      {
+        "text": "que",
+        "start": 0.362,
+        "end": 0.446
+      },
+      {
+        "text": "o",
+        "start": 0.456,
+        "end": 0.529
+      },
+      {
+        "text": "ar",
+        "start": 0.54,
+        "end": 0.696
+      },
+      {
+        "text": "não",
+        "start": 0.706,
+        "end": 0.852
+      },
+      {
+        "text": "sai",
+        "start": 0.863,
+        "end": 1.05
+      },
+      {
+        "text": "por",
+        "start": 1.06,
+        "end": 1.217
+      },
+      {
+        "text": "mágica",
+        "start": 1.227,
+        "end": 1.654
+      },
+      {
+        "text": "A",
+        "start": 2.365,
+        "end": 2.479
+      },
+      {
+        "text": "pá",
+        "start": 2.49,
+        "end": 2.635
+      },
+      {
+        "text": "é",
+        "start": 2.646,
+        "end": 2.698
+      },
+      {
+        "text": "uma",
+        "start": 2.708,
+        "end": 2.833
+      },
+      {
+        "text": "asa",
+        "start": 2.844,
+        "end": 3.146
+      },
+      {
+        "text": "o",
+        "start": 3.385,
+        "end": 3.437
+      },
+      {
+        "text": "formato",
+        "start": 3.448,
+        "end": 3.896
+      },
+      {
+        "text": "curvo",
+        "start": 3.906,
+        "end": 4.156
+      },
+      {
+        "text": "cria",
+        "start": 4.167,
+        "end": 4.354
+      },
+      {
+        "text": "baixa",
+        "start": 4.365,
+        "end": 4.667
+      },
+      {
+        "text": "pressão",
+        "start": 4.677,
+        "end": 4.979
+      },
+      {
+        "text": "atrás",
+        "start": 4.99,
+        "end": 5.24
+      },
+      {
+        "text": "e",
+        "start": 5.25,
+        "end": 5.375
+      },
+      {
+        "text": "alta",
+        "start": 5.385,
+        "end": 5.646
+      },
+      {
+        "text": "na",
+        "start": 5.656,
+        "end": 5.76
+      },
+      {
+        "text": "frente",
+        "start": 5.771,
+        "end": 6.156
+      }
+    ]
+  },
+  "s3": {
+    "text": "O motor transforma eletricidade em torque. No de indução, o campo girante arrasta o rotor; no BLDC, ímãs e comutação eletrônica.",
+    "seconds": 7.875,
+    "words": [
+      {
+        "text": "O",
+        "start": 0.092,
+        "end": 0.175
+      },
+      {
+        "text": "motor",
+        "start": 0.185,
+        "end": 0.55
+      },
+      {
+        "text": "transforma",
+        "start": 0.56,
+        "end": 1.029
+      },
+      {
+        "text": "eletricidade",
+        "start": 1.04,
+        "end": 1.623
+      },
+      {
+        "text": "em",
+        "start": 1.633,
+        "end": 1.717
+      },
+      {
+        "text": "torque",
+        "start": 1.727,
+        "end": 2.102
+      },
+      {
+        "text": "No",
+        "start": 2.812,
+        "end": 2.969
+      },
+      {
+        "text": "de",
+        "start": 2.979,
+        "end": 3.062
+      },
+      {
+        "text": "indução",
+        "start": 3.073,
+        "end": 3.51
+      },
+      {
+        "text": "o",
+        "start": 3.75,
+        "end": 3.823
+      },
+      {
+        "text": "campo",
+        "start": 3.833,
+        "end": 4.115
+      },
+      {
+        "text": "girante",
+        "start": 4.125,
+        "end": 4.438
+      },
+      {
+        "text": "arrasta",
+        "start": 4.448,
+        "end": 4.76
+      },
+      {
+        "text": "o",
+        "start": 4.771,
+        "end": 4.792
+      },
+      {
+        "text": "rotor",
+        "start": 4.802,
+        "end": 5.167
+      },
+      {
+        "text": "no",
+        "start": 5.406,
+        "end": 5.5
+      },
+      {
+        "text": "BLDC",
+        "start": 5.51,
+        "end": 6.292
+      },
+      {
+        "text": "ímãs",
+        "start": 6.5,
+        "end": 6.729
+      },
+      {
+        "text": "e",
+        "start": 6.74,
+        "end": 6.833
+      },
+      {
+        "text": "comutação",
+        "start": 6.844,
+        "end": 7.333
+      },
+      {
+        "text": "eletrônica",
+        "start": 7.344,
+        "end": 7.875
+      }
+    ]
+  },
+  "s4": {
+    "text": "A hélice gira e empurra o ar para frente. Mas a ponta da pá cria um vórtice que rouba eficiência.",
+    "seconds": 5.198,
+    "words": [
+      {
+        "text": "A",
+        "start": 0.092,
+        "end": 0.217
+      },
+      {
+        "text": "hélice",
+        "start": 0.227,
+        "end": 0.581
+      },
+      {
+        "text": "gira",
+        "start": 0.592,
+        "end": 0.842
+      },
+      {
+        "text": "e",
+        "start": 0.852,
+        "end": 0.862
+      },
+      {
+        "text": "empurra",
+        "start": 0.873,
+        "end": 1.227
+      },
+      {
+        "text": "o",
+        "start": 1.238,
+        "end": 1.29
+      },
+      {
+        "text": "ar",
+        "start": 1.3,
+        "end": 1.415
+      },
+      {
+        "text": "para",
+        "start": 1.425,
+        "end": 1.602
+      },
+      {
+        "text": "frente",
+        "start": 1.613,
+        "end": 1.988
+      },
+      {
+        "text": "Mas",
+        "start": 2.698,
+        "end": 2.854
+      },
+      {
+        "text": "a",
+        "start": 2.865,
+        "end": 2.99
+      },
+      {
+        "text": "ponta",
+        "start": 3.0,
+        "end": 3.312
+      },
+      {
+        "text": "da",
+        "start": 3.323,
+        "end": 3.406
+      },
+      {
+        "text": "pá",
+        "start": 3.417,
+        "end": 3.562
+      },
+      {
+        "text": "cria",
+        "start": 3.573,
+        "end": 3.74
+      },
+      {
+        "text": "um",
+        "start": 3.75,
+        "end": 3.833
+      },
+      {
+        "text": "vórtice",
+        "start": 3.844,
+        "end": 4.26
+      },
+      {
+        "text": "que",
+        "start": 4.271,
+        "end": 4.365
+      },
+      {
+        "text": "rouba",
+        "start": 4.375,
+        "end": 4.604
+      },
+      {
+        "text": "eficiência",
+        "start": 4.615,
+        "end": 5.198
+      }
+    ]
+  },
+  "s5": {
+    "text": "A solução: pás com torção e afilamento. O ângulo de ataque ideal em cada raio mantém o fluxo aderido.",
+    "seconds": 5.854,
+    "words": [
+      {
+        "text": "A",
+        "start": 0.092,
+        "end": 0.175
+      },
+      {
+        "text": "solução",
+        "start": 0.185,
+        "end": 0.727
+      },
+      {
+        "text": "pás",
+        "start": 0.894,
+        "end": 1.092
+      },
+      {
+        "text": "com",
+        "start": 1.102,
+        "end": 1.248
+      },
+      {
+        "text": "torção",
+        "start": 1.258,
+        "end": 1.675
+      },
+      {
+        "text": "e",
+        "start": 1.685,
+        "end": 1.727
+      },
+      {
+        "text": "afilamento",
+        "start": 1.738,
+        "end": 2.331
+      },
+      {
+        "text": "O",
+        "start": 3.042,
+        "end": 3.167
+      },
+      {
+        "text": "ângulo",
+        "start": 3.177,
+        "end": 3.469
+      },
+      {
+        "text": "de",
+        "start": 3.479,
+        "end": 3.542
+      },
+      {
+        "text": "ataque",
+        "start": 3.552,
+        "end": 3.854
+      },
+      {
+        "text": "ideal",
+        "start": 3.865,
+        "end": 4.208
+      },
+      {
+        "text": "em",
+        "start": 4.219,
+        "end": 4.302
+      },
+      {
+        "text": "cada",
+        "start": 4.312,
+        "end": 4.521
+      },
+      {
+        "text": "raio",
+        "start": 4.531,
+        "end": 4.781
+      },
+      {
+        "text": "mantém",
+        "start": 4.792,
+        "end": 5.083
+      },
+      {
+        "text": "o",
+        "start": 5.094,
+        "end": 5.125
+      },
+      {
+        "text": "fluxo",
+        "start": 5.135,
+        "end": 5.458
+      },
+      {
+        "text": "aderido",
+        "start": 5.469,
+        "end": 5.854
+      }
+    ]
+  },
+  "s6": {
+    "text": "Mas o motor esquenta. Rolamentos, atrito, perdas no cobre. O calor sobe e pode queimar o isolamento.",
+    "seconds": 6.76,
+    "words": [
+      {
+        "text": "Mas",
+        "start": 0.092,
+        "end": 0.279
+      },
+      {
+        "text": "o",
+        "start": 0.29,
+        "end": 0.394
+      },
+      {
+        "text": "motor",
+        "start": 0.404,
+        "end": 0.696
+      },
+      {
+        "text": "esquenta",
+        "start": 0.706,
+        "end": 1.133
+      },
+      {
+        "text": "Rolamentos",
+        "start": 1.844,
+        "end": 2.458
+      },
+      {
+        "text": "atrito",
+        "start": 2.646,
+        "end": 3.062
+      },
+      {
+        "text": "perdas",
+        "start": 3.292,
+        "end": 3.625
+      },
+      {
+        "text": "no",
+        "start": 3.635,
+        "end": 3.719
+      },
+      {
+        "text": "cobre",
+        "start": 3.729,
+        "end": 4.062
+      },
+      {
+        "text": "O",
+        "start": 4.781,
+        "end": 4.865
+      },
+      {
+        "text": "calor",
+        "start": 4.875,
+        "end": 5.188
+      },
+      {
+        "text": "sobe",
+        "start": 5.198,
+        "end": 5.51
+      },
+      {
+        "text": "e",
+        "start": 5.521,
+        "end": 5.562
+      },
+      {
+        "text": "pode",
+        "start": 5.573,
+        "end": 5.792
+      },
+      {
+        "text": "queimar",
+        "start": 5.802,
+        "end": 6.125
+      },
+      {
+        "text": "o",
+        "start": 6.135,
+        "end": 6.177
+      },
+      {
+        "text": "isolamento",
+        "start": 6.188,
+        "end": 6.76
+      }
+    ]
+  },
+  "s7": {
+    "text": "A grade não é só proteção: ela endireita o fluxo. Sem grade, o jato gira e perde alcance.",
+    "seconds": 5.417,
+    "words": [
+      {
+        "text": "A",
+        "start": 0.092,
+        "end": 0.196
+      },
+      {
+        "text": "grade",
+        "start": 0.206,
+        "end": 0.498
+      },
+      {
+        "text": "não",
+        "start": 0.508,
+        "end": 0.623
+      },
+      {
+        "text": "é",
+        "start": 0.633,
+        "end": 0.675
+      },
+      {
+        "text": "só",
+        "start": 0.685,
+        "end": 0.842
+      },
+      {
+        "text": "proteção",
+        "start": 0.852,
+        "end": 1.362
+      },
+      {
+        "text": "ela",
+        "start": 1.602,
+        "end": 1.706
+      },
+      {
+        "text": "endireita",
+        "start": 1.717,
+        "end": 2.092
+      },
+      {
+        "text": "o",
+        "start": 2.102,
+        "end": 2.123
+      },
+      {
+        "text": "fluxo",
+        "start": 2.133,
+        "end": 2.55
+      },
+      {
+        "text": "Sem",
+        "start": 3.26,
+        "end": 3.521
+      },
+      {
+        "text": "grade",
+        "start": 3.531,
+        "end": 3.896
+      },
+      {
+        "text": "o",
+        "start": 4.073,
+        "end": 4.115
+      },
+      {
+        "text": "jato",
+        "start": 4.125,
+        "end": 4.438
+      },
+      {
+        "text": "gira",
+        "start": 4.448,
+        "end": 4.677
+      },
+      {
+        "text": "e",
+        "start": 4.688,
+        "end": 4.719
+      },
+      {
+        "text": "perde",
+        "start": 4.729,
+        "end": 4.969
+      },
+      {
+        "text": "alcance",
+        "start": 4.979,
+        "end": 5.417
+      }
+    ]
+  },
+  "s8": {
+    "text": "Oscilação: um mecanismo de cremalheira e pinhão varre o jato pela sala. Cada pausa nas extremidades mistura o ar.",
+    "seconds": 6.208,
+    "words": [
+      {
+        "text": "Oscilação",
+        "start": 0.092,
+        "end": 0.706
+      },
+      {
+        "text": "um",
+        "start": 0.946,
+        "end": 1.029
+      },
+      {
+        "text": "mecanismo",
+        "start": 1.04,
+        "end": 1.54
+      },
+      {
+        "text": "de",
+        "start": 1.55,
+        "end": 1.633
+      },
+      {
+        "text": "cremalheira",
+        "start": 1.644,
+        "end": 2.092
+      },
+      {
+        "text": "e",
+        "start": 2.102,
+        "end": 2.144
+      },
+      {
+        "text": "pinhão",
+        "start": 2.154,
+        "end": 2.456
+      },
+      {
+        "text": "varre",
+        "start": 2.467,
+        "end": 2.696
+      },
+      {
+        "text": "o",
+        "start": 2.706,
+        "end": 2.737
+      },
+      {
+        "text": "jato",
+        "start": 2.748,
+        "end": 3.04
+      },
+      {
+        "text": "pela",
+        "start": 3.05,
+        "end": 3.237
+      },
+      {
+        "text": "sala",
+        "start": 3.248,
+        "end": 3.602
+      },
+      {
+        "text": "Cada",
+        "start": 4.312,
+        "end": 4.552
+      },
+      {
+        "text": "pausa",
+        "start": 4.562,
+        "end": 4.854
+      },
+      {
+        "text": "nas",
+        "start": 4.865,
+        "end": 4.958
+      },
+      {
+        "text": "extremidades",
+        "start": 4.969,
+        "end": 5.583
+      },
+      {
+        "text": "mistura",
+        "start": 5.594,
+        "end": 5.969
+      },
+      {
+        "text": "o",
+        "start": 5.979,
+        "end": 6.042
+      },
+      {
+        "text": "ar.",
+        "start": 6.052,
+        "end": 6.208
+      }
+    ]
+  },
+  "s9": {
+    "text": "Velocidade 1, 2, 3: no CA, capacitores mudam o torque; no BLDC, PWM no gate. Mais torque = mais vazão, mais ruído.",
+    "seconds": 9.469,
+    "words": [
+      {
+        "text": "Velocidade",
+        "start": 0.092,
+        "end": 0.779
+      },
+      {
+        "text": "1",
+        "start": 0.79,
+        "end": 0.956
+      },
+      {
+        "text": "2",
+        "start": 1.144,
+        "end": 1.467
+      },
+      {
+        "text": "3",
+        "start": 1.644,
+        "end": 1.998
+      },
+      {
+        "text": "no",
+        "start": 2.154,
+        "end": 2.321
+      },
+      {
+        "text": "CA",
+        "start": 2.331,
+        "end": 2.56
+      },
+      {
+        "text": "capacitores",
+        "start": 2.717,
+        "end": 3.342
+      },
+      {
+        "text": "mudam",
+        "start": 3.352,
+        "end": 3.644
+      },
+      {
+        "text": "o",
+        "start": 3.654,
+        "end": 3.696
+      },
+      {
+        "text": "torque",
+        "start": 3.706,
+        "end": 4.05
+      },
+      {
+        "text": "no",
+        "start": 4.29,
+        "end": 4.383
+      },
+      {
+        "text": "BLDC",
+        "start": 4.394,
+        "end": 5.237
+      },
+      {
+        "text": "PWM",
+        "start": 5.467,
+        "end": 6.206
+      },
+      {
+        "text": "no",
+        "start": 6.217,
+        "end": 6.3
+      },
+      {
+        "text": "gate",
+        "start": 6.31,
+        "end": 6.665
+      },
+      {
+        "text": "Mais",
+        "start": 7.375,
+        "end": 7.677
+      },
+      {
+        "text": "torque",
+        "start": 7.688,
+        "end": 7.938
+      },
+      {
+        "text": "=",
+        "start": 7.948,
+        "end": 8.146
+      },
+      {
+        "text": "mais",
+        "start": 8.156,
+        "end": 8.344
+      },
+      {
+        "text": "vazão",
+        "start": 8.354,
+        "end": 8.719
+      },
+      {
+        "text": "mais",
+        "start": 8.917,
+        "end": 9.115
+      },
+      {
+        "text": "ruído",
+        "start": 9.125,
+        "end": 9.469
+      }
+    ]
+  },
+  "s10": {
+    "text": "O ar circula: empurra o quente para cima, puxa o frio de baixo. Convecção forçada = conforto.",
+    "seconds": 5.885,
+    "words": [
+      {
+        "text": "O",
+        "start": 0.092,
+        "end": 0.196
+      },
+      {
+        "text": "ar",
+        "start": 0.206,
+        "end": 0.321
+      },
+      {
+        "text": "circula",
+        "start": 0.331,
+        "end": 0.779
+      },
+      {
+        "text": "empurra",
+        "start": 1.008,
+        "end": 1.404
+      },
+      {
+        "text": "o",
+        "start": 1.415,
+        "end": 1.456
+      },
+      {
+        "text": "quente",
+        "start": 1.467,
+        "end": 1.706
+      },
+      {
+        "text": "para",
+        "start": 1.717,
+        "end": 1.894
+      },
+      {
+        "text": "cima",
+        "start": 1.904,
+        "end": 2.248
+      },
+      {
+        "text": "puxa",
+        "start": 2.456,
+        "end": 2.696
+      },
+      {
+        "text": "o",
+        "start": 2.706,
+        "end": 2.727
+      },
+      {
+        "text": "frio",
+        "start": 2.737,
+        "end": 2.998
+      },
+      {
+        "text": "de",
+        "start": 3.008,
+        "end": 3.071
+      },
+      {
+        "text": "baixo",
+        "start": 3.081,
+        "end": 3.456
+      },
+      {
+        "text": "Convecção",
+        "start": 4.167,
+        "end": 4.708
+      },
+      {
+        "text": "forçada",
+        "start": 4.719,
+        "end": 5.135
+      },
+      {
+        "text": "=",
+        "start": 5.146,
+        "end": 5.354
+      },
+      {
+        "text": "conforto",
+        "start": 5.365,
+        "end": 5.885
+      }
+    ]
+  },
+  "s11": {
+    "text": "Manutenção: limpe a grade, lubrifique o rolamento, aperte o parafuso da hélice. Um ventilador cuidado dura décadas.",
+    "seconds": 7.062,
+    "words": [
+      {
+        "text": "Manutenção",
+        "start": 0.092,
+        "end": 0.779
+      },
+      {
+        "text": "limpe",
+        "start": 0.977,
+        "end": 1.248
+      },
+      {
+        "text": "a",
+        "start": 1.258,
+        "end": 1.31
+      },
+      {
+        "text": "grade",
+        "start": 1.321,
+        "end": 1.665
+      },
+      {
+        "text": "lubrifique",
+        "start": 1.883,
+        "end": 2.352
+      },
+      {
+        "text": "o",
+        "start": 2.362,
+        "end": 2.394
+      },
+      {
+        "text": "rolamento",
+        "start": 2.404,
+        "end": 2.915
+      },
+      {
+        "text": "aperte",
+        "start": 3.06,
+        "end": 3.435
+      },
+      {
+        "text": "o",
+        "start": 3.446,
+        "end": 3.467
+      },
+      {
+        "text": "parafuso",
+        "start": 3.477,
+        "end": 3.967
+      },
+      {
+        "text": "da",
+        "start": 3.977,
+        "end": 4.081
+      },
+      {
+        "text": "hélice",
+        "start": 4.092,
+        "end": 4.456
+      },
+      {
+        "text": "Um",
+        "start": 5.167,
+        "end": 5.323
+      },
+      {
+        "text": "ventilador",
+        "start": 5.333,
+        "end": 5.865
+      },
+      {
+        "text": "cuidado",
+        "start": 5.875,
+        "end": 6.302
+      },
+      {
+        "text": "dura",
+        "start": 6.312,
+        "end": 6.562
+      },
+      {
+        "text": "décadas",
+        "start": 6.573,
+        "end": 7.062
+      }
+    ]
+  },
+  "s12": {
+    "text": "E é assim: a pá é uma asa, o motor gira, a pressão empurra, a grade endireita, o ar circula.",
+    "seconds": 5.248,
+    "words": [
+      {
+        "text": "E",
+        "start": 0.092,
+        "end": 0.175
+      },
+      {
+        "text": "é",
+        "start": 0.185,
+        "end": 0.269
+      },
+      {
+        "text": "assim",
+        "start": 0.279,
+        "end": 0.592
+      },
+      {
+        "text": "a",
+        "start": 0.8,
+        "end": 0.894
+      },
+      {
+        "text": "pá",
+        "start": 0.904,
+        "end": 1.04
+      },
+      {
+        "text": "é",
+        "start": 1.05,
+        "end": 1.113
+      },
+      {
+        "text": "uma",
+        "start": 1.123,
+        "end": 1.258
+      },
+      {
+        "text": "asa",
+        "start": 1.269,
+        "end": 1.55
+      },
+      {
+        "text": "o",
+        "start": 1.8,
+        "end": 1.842
+      },
+      {
+        "text": "motor",
+        "start": 1.852,
+        "end": 2.206
+      },
+      {
+        "text": "gira",
+        "start": 2.217,
+        "end": 2.508
+      },
+      {
+        "text": "a",
+        "start": 2.696,
+        "end": 2.758
+      },
+      {
+        "text": "pressão",
+        "start": 2.769,
+        "end": 3.081
+      },
+      {
+        "text": "empurra",
+        "start": 3.092,
+        "end": 3.498
+      },
+      {
+        "text": "a",
+        "start": 3.602,
+        "end": 3.665
+      },
+      {
+        "text": "grade",
+        "start": 3.675,
+        "end": 3.946
+      },
+      {
+        "text": "endireita",
+        "start": 3.956,
+        "end": 4.383
+      },
+      {
+        "text": "o",
+        "start": 4.592,
+        "end": 4.665
+      },
+      {
+        "text": "ar",
+        "start": 4.675,
+        "end": 4.779
+      },
+      {
+        "text": "circula",
+        "start": 4.79,
+        "end": 5.248
+      }
+    ]
+  },
+  "s13": {
+    "text": "Quer testar? Segure um papel na frente e sinta a sucção atrás. A diferença de pressão é real.",
+    "seconds": 6.094,
+    "words": [
+      {
+        "text": "Quer",
+        "start": 0.092,
+        "end": 0.29
+      },
+      {
+        "text": "testar",
+        "start": 0.3,
+        "end": 0.706
+      },
+      {
+        "text": "Segure",
+        "start": 1.417,
+        "end": 1.854
+      },
+      {
+        "text": "um",
+        "start": 1.865,
+        "end": 1.937
+      },
+      {
+        "text": "papel",
+        "start": 1.948,
+        "end": 2.229
+      },
+      {
+        "text": "na",
+        "start": 2.24,
+        "end": 2.333
+      },
+      {
+        "text": "frente",
+        "start": 2.344,
+        "end": 2.656
+      },
+      {
+        "text": "e",
+        "start": 2.667,
+        "end": 2.687
+      },
+      {
+        "text": "sinta",
+        "start": 2.698,
+        "end": 2.979
+      },
+      {
+        "text": "a",
+        "start": 2.99,
+        "end": 3.01
+      },
+      {
+        "text": "sucção",
+        "start": 3.021,
+        "end": 3.448
+      },
+      {
+        "text": "atrás",
+        "start": 3.458,
+        "end": 3.885
+      },
+      {
+        "text": "A",
+        "start": 4.604,
+        "end": 4.698
+      },
+      {
+        "text": "diferença",
+        "start": 4.708,
+        "end": 5.187
+      },
+      {
+        "text": "de",
+        "start": 5.198,
+        "end": 5.271
+      },
+      {
+        "text": "pressão",
+        "start": 5.281,
+        "end": 5.677
+      },
+      {
+        "text": "é",
+        "start": 5.688,
+        "end": 5.729
+      },
+      {
+        "text": "real.",
+        "start": 5.74,
+        "end": 6.094
+      }
+    ]
+  },
+  "s14": {
+    "text": "Próxima vez que ligar, lembre: não é mágica. É física trabalhando para seu conforto.",
+    "seconds": 4.979,
+    "words": [
+      {
+        "text": "Próxima",
+        "start": 0.092,
+        "end": 0.508
+      },
+      {
+        "text": "vez",
+        "start": 0.519,
+        "end": 0.727
+      },
+      {
+        "text": "que",
+        "start": 0.738,
+        "end": 0.81
+      },
+      {
+        "text": "ligar",
+        "start": 0.821,
+        "end": 1.102
+      },
+      {
+        "text": "lembre",
+        "start": 1.196,
+        "end": 1.508
+      },
+      {
+        "text": "não",
+        "start": 1.727,
+        "end": 1.956
+      },
+      {
+        "text": "é",
+        "start": 1.967,
+        "end": 2.04
+      },
+      {
+        "text": "mágica",
+        "start": 2.05,
+        "end": 2.487
+      },
+      {
+        "text": "É",
+        "start": 3.198,
+        "end": 3.302
+      },
+      {
+        "text": "física",
+        "start": 3.312,
+        "end": 3.708
+      },
+      {
+        "text": "trabalhando",
+        "start": 3.719,
+        "end": 4.135
+      },
+      {
+        "text": "para",
+        "start": 4.146,
+        "end": 4.292
+      },
+      {
+        "text": "seu",
+        "start": 4.302,
+        "end": 4.448
+      },
+      {
+        "text": "conforto",
+        "start": 4.458,
+        "end": 4.979
+      }
+    ]
+  }
+}

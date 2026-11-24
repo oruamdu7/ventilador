@@ -1,0 +1,16 @@
+{
+  "s1": "Você quer vento. Parece que basta girar uma hélice...",
+  "s2": "Só que o ar não sai por mágica. A pá é uma asa: o formato curvo cria baixa pressão atrás e alta na frente.",
+  "s3": "O motor transforma eletricidade em torque. No de indução, o campo girante arrasta o rotor; no BLDC, ímãs e comutação eletrônica.",
+  "s4": "A hélice gira e empurra o ar para frente. Mas a ponta da pá cria um vórtice que rouba eficiência.",
+  "s5": "A solução: pás com torção e afilamento. O ângulo de ataque ideal em cada raio mantém o fluxo aderido.",
+  "s6": "Mas o motor esquenta. Rolamentos, atrito, perdas no cobre. O calor sobe e pode queimar o isolamento.",
+  "s7": "A grade não é só proteção: ela endireita o fluxo. Sem grade, o jato gira e perde alcance.",
+  "s8": "Oscilação: um mecanismo de cremalheira e pinhão varre o jato pela sala. Cada pausa nas extremidades mistura o ar.",
+  "s9": "Velocidade 1, 2, 3: no CA, capacitores mudam o torque; no BLDC, PWM no gate. Mais torque = mais vazão, mais ruído.",
+  "s10": "O ar circula: empurra o quente para cima, puxa o frio de baixo. Convecção forçada = conforto.",
+  "s11": "Manutenção: limpe a grade, lubrifique o rolamento, aperte o parafuso da hélice. Um ventilador cuidado dura décadas.",
+  "s12": "E é assim: a pá é uma asa, o motor gira, a pressão empurra, a grade endireita, o ar circula.",
+  "s13": "Quer testar? Segure um papel na frente e sinta a sucção atrás. A diferença de pressão é real.",
+  "s14": "Próxima vez que ligar, lembre: não é mágica. É física trabalhando para seu conforto."
+}
