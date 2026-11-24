@@ -40,14 +40,13 @@ jobs:
       - name: Verify TypeScript compiles
         run: npx tsc --noEmit
 
-      - name: Render video with Remotion (with xvfb)
+      - name: Render video with Remotion (simpler command)
         run: |
-          xvfb-run -a -s "-screen 0 1920x1080x24" \
+          xvfb-run -a --server-args="-screen 0 1920x1080x24" \
             npx remotion render Ventilador out/ventilador-raw.mp4 \
-              --gl=angle \
-              --concurrency=2 \
-              --crf=23 \
-              --timeout=300000
+              --concurrency=1 \
+              --crf=28 \
+              --timeout=600000
 
       - name: Check video metadata
         run: |
